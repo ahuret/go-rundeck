@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // JobImportResult is the result of a job import

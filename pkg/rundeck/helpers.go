@@ -10,7 +10,7 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 	yaml "gopkg.in/yaml.v2"
 )
 

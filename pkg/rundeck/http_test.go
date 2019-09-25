@@ -3,8 +3,8 @@ package rundeck
 import (
 	"testing"
 
-	httpclient "github.com/lusis/go-rundeck/pkg/httpclient"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	httpclient "github.com/ahuret/go-rundeck/pkg/httpclient"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lusis/go-rundeck/pkg/cli"
-	rundeck "github.com/lusis/go-rundeck/pkg/rundeck"
+	"github.com/ahuret/go-rundeck/pkg/cli"
+	rundeck "github.com/ahuret/go-rundeck/pkg/rundeck"
 	"github.com/spf13/cobra"
 )
 

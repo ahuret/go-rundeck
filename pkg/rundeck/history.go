@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	multierror "github.com/hashicorp/go-multierror"
-	httpclient "github.com/lusis/go-rundeck/pkg/httpclient"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	httpclient "github.com/ahuret/go-rundeck/pkg/httpclient"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // History represents a project history

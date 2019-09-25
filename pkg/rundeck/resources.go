@@ -6,7 +6,7 @@ import (
 	"io"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // Resources represents a collection of project resources (usually nodes)

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 func (c *Client) checkRequiredAPIVersion(r responses.VersionedResponse) error {

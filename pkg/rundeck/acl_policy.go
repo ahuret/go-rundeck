@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	multierror "github.com/hashicorp/go-multierror"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // ACLPolicies represents ACL Policies

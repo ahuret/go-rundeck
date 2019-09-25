@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck"
+	"github.com/ahuret/go-rundeck/pkg/rundeck"
 	"github.com/stretchr/testify/suite"
 )
 
@@ -116,7 +116,7 @@ func (s *SCMIntegrationTestSuite) TestSetupSCMPluginExport() {
 	project, _ := s.testCreateProject(false)
 	params := map[string]string{
 		"committerName":         "John E. Vincent",
-		"committerEmail":        "lusis.org+github.com@gmail.com",
+		"committerEmail":        "ahuret.org+github.com@gmail.com",
 		"url":                   "/home/rundeck-export.git/",
 		"format":                "yaml",
 		"dir":                   fmt.Sprintf("/var/rundeck/projects/%s/scm", project.Name),
@@ -158,7 +158,7 @@ func (s *SCMIntegrationTestSuite) TestSCMActionProjectExport() {
 	project, _ := s.testCreateProject(false)
 	scmparams := map[string]string{
 		"committerName":         "John E. Vincent",
-		"committerEmail":        "lusis.org+github.com@gmail.com",
+		"committerEmail":        "ahuret.org+github.com@gmail.com",
 		"url":                   "/home/rundeck-export.git/",
 		"format":                "yaml",
 		"dir":                   fmt.Sprintf("/var/rundeck/projects/%s/scm", project.Name),
@@ -223,7 +223,7 @@ func (s *SCMIntegrationTestSuite) TestSCMActionProjectFailure() {
 	project, _ := s.testCreateProject(false)
 	scmparams := map[string]string{
 		"committerName":  "John E. Vincent",
-		"committerEmail": "lusis.org+github.com@gmail.com",
+		"committerEmail": "ahuret.org+github.com@gmail.com",
 	}
 	res, err := s.TestClient.SetupSCMPluginForProject(project.Name, "export", "git-export", scmparams)
 	s.Require().Nil(res)
@@ -234,7 +234,7 @@ func (s *SCMIntegrationTestSuite) TestSCMActionProjectDisableEnable() {
 	project, _ := s.testCreateProject(false)
 	scmparams := map[string]string{
 		"committerName":         "John E. Vincent",
-		"committerEmail":        "lusis.org+github.com@gmail.com",
+		"committerEmail":        "ahuret.org+github.com@gmail.com",
 		"url":                   "/home/rundeck-export.git/",
 		"format":                "yaml",
 		"dir":                   fmt.Sprintf("/var/rundeck/projects/%s/scm", project.Name),
@@ -254,7 +254,7 @@ func (s *SCMIntegrationTestSuite) TestSCMActionJobDiff() {
 	project, _ := s.testCreateProject(false)
 	scmparams := map[string]string{
 		"committerName":         "John E. Vincent",
-		"committerEmail":        "lusis.org+github.com@gmail.com",
+		"committerEmail":        "ahuret.org+github.com@gmail.com",
 		"url":                   "/home/rundeck-export.git/",
 		"format":                "yaml",
 		"dir":                   fmt.Sprintf("/var/rundeck/projects/%s/scm", project.Name),

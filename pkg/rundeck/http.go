@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 
-	httpclient "github.com/lusis/go-rundeck/pkg/httpclient"
+	httpclient "github.com/ahuret/go-rundeck/pkg/httpclient"
 )
 
 // withBody sets the post/put body for a request

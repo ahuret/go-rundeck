@@ -3,7 +3,7 @@ package rundeck
 import (
 	"fmt"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // UploadKey stores keys on the rundeck server

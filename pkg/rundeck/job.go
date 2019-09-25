@@ -8,9 +8,9 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	httpclient "github.com/lusis/go-rundeck/pkg/httpclient"
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	httpclient "github.com/ahuret/go-rundeck/pkg/httpclient"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // Job represents a rundeck job

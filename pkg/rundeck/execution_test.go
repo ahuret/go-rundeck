@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 
 	"github.com/stretchr/testify/require"
 )

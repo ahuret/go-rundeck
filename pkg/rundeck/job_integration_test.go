@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck"
+	"github.com/ahuret/go-rundeck/pkg/rundeck"
 	"github.com/stretchr/testify/suite"
 )
 

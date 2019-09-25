@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	multierror "github.com/hashicorp/go-multierror"
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // SCMPluginForProject represents an scm plugin for a project

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lusis/go-rundeck/pkg/cli"
+	"github.com/ahuret/go-rundeck/pkg/cli"
 	"github.com/spf13/cobra"
 )
 

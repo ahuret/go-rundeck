@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	multierror "github.com/hashicorp/go-multierror"
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // Token is a token

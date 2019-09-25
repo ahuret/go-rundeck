@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 
 	"github.com/stretchr/testify/require"
 )

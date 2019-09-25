@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // LogStorage represents log storage

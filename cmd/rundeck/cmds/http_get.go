@@ -3,8 +3,8 @@ package cmds
 import (
 	"fmt"
 
-	cli "github.com/lusis/go-rundeck/pkg/cli"
-	httpclient "github.com/lusis/go-rundeck/pkg/httpclient"
+	cli "github.com/ahuret/go-rundeck/pkg/cli"
+	httpclient "github.com/ahuret/go-rundeck/pkg/httpclient"
 	"github.com/spf13/cobra"
 )
 

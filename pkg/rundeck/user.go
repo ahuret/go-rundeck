@@ -7,8 +7,8 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // User represents a user in rundeck

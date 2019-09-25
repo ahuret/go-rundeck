@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/lusis/go-rundeck/cmd/rundeck/cmds"
+	"github.com/ahuret/go-rundeck/cmd/rundeck/cmds"
 )
 
 func main() {

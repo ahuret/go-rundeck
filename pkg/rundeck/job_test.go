@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	"github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	"github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 	yaml "gopkg.in/yaml.v2"
 
 	"github.com/stretchr/testify/require"

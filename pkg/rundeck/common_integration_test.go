@@ -8,7 +8,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/lusis/go-rundeck/pkg/rundeck"
+	"github.com/ahuret/go-rundeck/pkg/rundeck"
 	"github.com/stretchr/testify/require"
 )
 
@@ -18,7 +18,7 @@ var testIntegrationUsername = "admin"
 var testIntegrationPassword = "admin"
 var testIntegrationToken = "yays72hw87aK2AfxWifTSdcMcY81GL1p"
 var testIntegrationUserToken = "jHpBIeJRkfVHfWlmiPRxXH2GSk2DF3wy"
-var testAdHocScriptURL = "https://gist.github.com/lusis/c230f2d8323e0d440a29d25a8b3bb7af/raw/ccfa844799d375293b1028b1c8f85c2c786be0d1/test.py"
+var testAdHocScriptURL = "https://gist.github.com/ahuret/c230f2d8323e0d440a29d25a8b3bb7af/raw/ccfa844799d375293b1028b1c8f85c2c786be0d1/test.py"
 
 var testJobDefinition = `
 - description: this is a test job

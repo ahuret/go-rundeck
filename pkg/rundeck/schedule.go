@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 
 	multierror "github.com/hashicorp/go-multierror"
-	requests "github.com/lusis/go-rundeck/pkg/rundeck/requests"
-	responses "github.com/lusis/go-rundeck/pkg/rundeck/responses"
+	requests "github.com/ahuret/go-rundeck/pkg/rundeck/requests"
+	responses "github.com/ahuret/go-rundeck/pkg/rundeck/responses"
 )
 
 // DisableSchedule disables a scheduled job
